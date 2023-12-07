@@ -3,6 +3,7 @@ Berechnet sowohl die Wichsgeschwindigkeit, als auch die abgewichste Strecke in C
 
 # Nutzereingaben
 Die folgenden Werte beruhen auf Nutzereingaben:
+- Ausgangsgeschwindigkeit bei t=0
 - a (Beschleunigung; double wichsBeschleunigung)
 - i (Intensität; double wichsIntensität)
 - Berechnete Dauer der Wichszeit (tmax)
@@ -16,6 +17,6 @@ Die Geschwindigkeit v(t) wird berechnet durch das Zeit-Geschwindigkeit-Gesetz de
 - v(t) = a * t + i
 
 Die Abmasturbierte Strecke in Cocklängen wird berechnet durch das Bewegungsgesetz der gleichmäßig beschleunigten Bewegung: 
-- s = (v^2)/(2a)
+- s = (v(t)^2)/(2a)
 
 Die Funktionen können hier auf [GeoGebra](https://www.geogebra.org/calculator/vxukknrf) grafisch dargestellt werden.
