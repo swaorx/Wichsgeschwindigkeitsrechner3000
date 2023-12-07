@@ -47,7 +47,7 @@ namespace Test1
             {
                 Console.WriteLine("DIE MOMENTANE WICHSGESCHWINDIGKEIT v BETRÄGT:");
 
-                // Geschwindigkeit (v) nach Geschwindigkeits-Zeit-Gesetz "v = a * t * i + v0"
+                // Geschwindigkeit (v) nach Geschwindigkeits-Zeit-Gesetz "v = a * t * i + v0".
                 // Geschwindigkeit = Beschleunigung * Zeit + Ausgangsgeschwindigkeit v0. Wird mit Intensität multipliziert.
                 Console.WriteLine(wichsBeschleunigung * i * wichsIntensität + wichsGeschAusg + " M/s (MASTURBATIONEN/SEKUNDE)...");
 
