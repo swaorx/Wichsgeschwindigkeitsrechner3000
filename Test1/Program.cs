@@ -43,7 +43,7 @@ namespace Test1
             wichsZeit = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
 
-            for (int i = 0; i <= wichsZeit; i++)
+            for (int i = 0; i < wichsZeit; i++)
             {
                 Console.WriteLine("DIE MOMENTANE WICHSGESCHWINDIGKEIT v BETRÄGT:");
 
